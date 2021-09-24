@@ -29,4 +29,4 @@ Custom Vision is a part of Cognitive Services that allows you to train your cust
 
 1. Finally, select __Create project__.
 
-With the project created, you are now ready to [fill it with some training images](04-Get%20Training%20Data%20for%20your%20AI%20Model.md).
+With the project created, you are now ready to [fill it with some training images](04-Get%20training%20data%20for%20your%20AI%20model.md).
