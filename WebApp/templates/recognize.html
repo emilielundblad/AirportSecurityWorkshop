@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon/favicon.png') }}">
+    <title>Airport Security Scan</title>
+</head>
+<body>
+    <div>
+        <h1>Airport Security Scan</h1>
+        <h2>Detect Dangerous Luggage</h2>
+    </div>
+    <div id="results-container">
+        <h2>Custom Vision found:</h2>
+        <div id="results-col-wrapper">
+            <img class="results-col" src={{image}}></img>
+            <div class="results-col">
+                <div id="objects-list">
+                    {% for object in predictions %}
+                        {% if object['probability'] * 100 >= probability_threshold %}
+                            <div class='{{"dangerous" if object["tagName"] in dangerous_objects}}'>
+                                <b>{{object['tagName']}}</b>
+                                <span>probability: {{'%0.2f' | format(object['probability'] * 100)}}%</span>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
