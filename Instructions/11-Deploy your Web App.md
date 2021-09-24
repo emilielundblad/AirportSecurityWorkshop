@@ -24,5 +24,5 @@ Despite all of the configuration you have done in the previous tasks, your Web A
     > ##### ℹ️
     > Wondering what `--sku B1` means? This parameter defines which App Service Plan to use (i.e. what compute resources the app can access). B1 is one of the basic options, but it's more than capable to run our little app.
 
-After a short wait, your Cloud Shell should inform you that the deployment has been sucessful and provide you with a url to launch your Web App. If you are seeing a simple **Airport Security Scan** interface, then you're [ready for takeoff](12-Ready%20for%20Takeoff!.md)!
+After a short wait, your Cloud Shell should inform you that the deployment has been sucessful and provide you with a url to launch your Web App. If you are seeing a simple **Airport Security Scan** interface, then you're [ready for takeoff](12-Ready%20for%20takeoff!.md)!
 
