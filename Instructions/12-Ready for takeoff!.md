@@ -1,4 +1,4 @@
-# Task 12 - Ready for Takeoff!
+# Task 12 - Ready for takeoff!
 
 Everything is in place. It's time to test your app!
 
