@@ -38,4 +38,4 @@ In this task, you are creating a Cognitive Services resource, which gives you ac
     > ##### ℹ️
     > You deployed this resource through the Azure Portal user interface. This works well for one resource, but can be inconvenient if you have to deploy many resources. In such a case, you can also automate the deployment via [templates](https://azure.microsoft.com/en-gb/services/arm-templates/).
 
-You have now deployed your first Azure resource! Cognitive Services can be used for all kinds of tasks, but we are specifically using the **Custom Vision** service. [In the next task, you will get started creating a Custom Vision project](03-Create%20a%20Custom%20Vision%20Project.md).
+You have now deployed your first Azure resource! Cognitive Services can be used for all kinds of tasks, but we are specifically using the **Custom Vision** service. [In the next task, you will get started creating a Custom Vision project](03-Create%20a%20Custom%20Vision%20project.md).
