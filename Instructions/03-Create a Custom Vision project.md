@@ -18,7 +18,7 @@ Custom Vision is a part of Cognitive Services that allows you to train your cust
 
 1. Select __Object Detection__ under __Project Types__.
 
-1. Next, select the latest **General** model (currently A2) from the list of available domains.  Each domain optimizes the detector for specific types of images, as described in the following table. You will be able to change the domain later if you wish.
+1. Next, select the **General** model (e.g. General A1) from the list of available domains.  Each domain optimizes the detector for specific types of images, as described in the following table. You will be able to change the domain later if you wish.
 
     |Domain|Purpose|
     |---|---|
