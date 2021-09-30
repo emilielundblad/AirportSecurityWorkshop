@@ -9,9 +9,16 @@ In this task, you are creating a Cognitive Services resource, which gives you ac
     ![Find your resource groups](media/02/rg.png)
 
     > ##### ℹ️
+    > A resource group is a logical container for your resources. It's similar to a folder that holds multiple files within it. 
+
+1. If you already have a resource group for this workshop, select it in the list. Otherwise, select **+ Create** in the top to create a new resource group. In that case, provide a **Name** (e.g. `AirportSecurityWorkshop`) and a **Region** (e.g. `West Europe`).
+
+    ![Create new or find existing resource group](media/02/rg1.png)
+
+    > ##### ℹ️
     > If you cannot see any resource groups, make sure that the correct subscription is selected in the filter.
 
-1. There are many ways to create a resource in the Azure portal. While viewing your resource group, select either the **Create** button in the top or the **Create resources** button in the bottom.
+1. Now that you have found/created your resource group, you can create a resource. There are multiple ways to do that in the Azure portal. While viewing your resource group, select either the **Create** button in the top or the **Create resources** button in the bottom.
 
     ![Create a resource](media/02/rg2.png)
 

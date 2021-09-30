@@ -14,7 +14,7 @@ Your AI model is up and running - now you only need an application trough which 
     > ##### ℹ️
     > Choose your app's name wisely. It will be used in the URL that you access the app with: *{app-name}.azurewebsites.net*.
 
-1. For **Linux Plan**, select **Create new**. The App Service Plan determines what kind of hardware your web app runs on and how much it costs. Give your App Service Plan and select **OK**. 
+1. For **Linux Plan**, select **Create new**. The App Service Plan determines what kind of hardware your web app runs on and how much it costs. Give your App Service Plan a name and select **OK**. 
 
 1. Under **Sku and size**, select **Change size** to open the Speck Picker. Under **Dev / Test**, select **B1** and click **Apply**.
 

@@ -2,7 +2,7 @@
 
 In this section, you will upload and manually tag images to help train the detector. 
 
-1. Return to your Custom Vision project at [customvision.ai](https://customvision.ai), select __Add images__ and then select __Browse local files__. Select __Open__ to upload the images.
+1. Return to your Custom Vision project at [customvision.ai](https://customvision.ai), select __Add images__ and then select __Browse local files__. Select __Open__ to upload the images. 
 
     ![The add images control is shown in the upper left, and as a button at bottom center.](./media/05/add-images.png)
 
@@ -12,6 +12,9 @@ In this section, you will upload and manually tag images to help train the detec
 1. You'll see your uploaded images in the **Untagged** section of the UI. The next step is to manually tag the objects that you want the detector to learn to recognize. Click the first image to open the tagging dialog window. 
 
     ![Images uploaded, in Untagged section](./media/05/images-untagged.png)
+
+    > ##### ⚠️
+    > Remember to keep five images of each item for later testing. If you have uploaded all your images, leave a few images untagged. Untagged images will not be used in training.
 
 1. Click and drag a rectangle around the object in your image. Then, enter a new tag name with the **+** button, or select an existing tag from the drop-down list. It's important to tag every instance of the object(s) you want to detect, because the detector uses the untagged background area as a negative example in training. When you're done tagging, click the arrow on the right to save your tags and move on to the next image.
 

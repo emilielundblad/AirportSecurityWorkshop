@@ -4,11 +4,12 @@ With your training data uploaded and tagges, you can now start training the mode
 
 ## Train the model
 
-To train the detector model, select the **Train** button. The detector uses all of the current images and their tags to create a model that identifies each tagged object.
+To train the detector model, select the **Train** button, then select **Quick Training**. The detector uses all of the current images and their tags to create a model that identifies each tagged object.
 
 ![The train button in the top right of the web page's header toolbar](./media/06/train01.png)
 
 The training process should only take a few minutes. During this time, information about the training process is displayed in the **Performance** tab. This is a great time to take a break!
+
 ![The browser window with a training dialog in the main section](./media/06/training.png)
 
 
@@ -20,7 +21,7 @@ After training has completed, the model's performance is calculated and displaye
 - **Recall** indicates the fraction of actual classifications that were correctly identified. For example, if there were actually 100 images of apples, and the model identified 80 as apples, the recall would be 80%.
 - **Mean average precision** is the average value of the average precision (AP). AP is the area under the precision/recall curve (precision plotted against recall for each prediction made).
 
-![The training results show the overall precision and recall, and mean average precision.](./media/06/trained-performance.png)
+    ![The training results show the overall precision and recall, and mean average precision.](./media/06/trained-performance.png)
 
 
 ## Test the model

@@ -4,6 +4,12 @@ Everything is in place. It's time to test your app!
 
 1. Navigate to your Web App's URL. Select **Choose File** and upload an image that you want to test. Make sure that you choose an image that was not included in your model's training data. Then, hit **Submit**. 
 
+    > ##### ℹ️
+    > If you see an `internal server error` after submitting your image, check the following:
+    > * the image is less than 4MB in size
+    > * the image has the .jpg, .png, .bmp, or .gif format
+    > * all of the app settings are spelled exactly like shown in [Task 9](09-Configure%20your%20Web%20App.md)
+
 1. In the background, your app sends the picture you uploaded to your AI model, which will return a list of objects it detects. The **Probability** value shows how certain your AI model is about having detected this object in the image. Your web app will only show objects with a certain minimum probability value. You can change this value on the start screen of your app. 
 
     ![List of detected objects](media/12/dangerous_objects.png)
