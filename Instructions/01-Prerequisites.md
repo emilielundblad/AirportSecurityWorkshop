@@ -1,4 +1,4 @@
-# Prerequisites
+# Task 1 - Prerequisites
 
 Welcome! This is the starting point for the step-by-step instructions of this workshop. Throughout the next twelve tasks, you will train an AI model for airport security and make it available to the users as a web app. You will be using Azure Cognitive Services Custom Vision and Azure Web Apps to achieve this. Along the way, you will learn (or practice) a lot of useful skills for working with Azure, such as resource provisioning, app configuration, and Cloud Shell CLI.
 
