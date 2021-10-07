@@ -25,6 +25,6 @@ Now, this task is all about getting some training data. Remember what the case w
     * no greater than 6MB in size (4MB for prediction images)
     * no less than 256 pixels on the shortest edge; any images shorter than this will be automatically scaled up by the Custom Vision Service
     
-1. You will use most of the images as your *training data* in the next task. However, in order to properly test your model, take up to five images of each item to the side. These will be your *test data*. Do not upload them in the next task.
+1. You will use most of the images as your *training data* in the next task. However, in order to properly test your model, take up to five images of each item and save them for later. These will be your *test data*. Do not upload them in the next task.
 
 Now you have the images but you have not told the AI yet what to look for. That's why, you will [upload and tag the images](05-Upload%20and%20tag%20your%20training%20data.md) next.
